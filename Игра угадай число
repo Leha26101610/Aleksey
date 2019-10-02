@@ -1,0 +1,12 @@
+game_num = rand(0..20)
+puts game_num
+
+print 'Введите число: '
+num = gets.to_i
+
+while num != game_num
+print 'Введите число: '
+num = gets.to_i
+
+end
+puts 'Вы выиграли'
